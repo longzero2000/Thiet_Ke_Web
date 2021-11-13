@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<lang =vi>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<style>
+		img
+		{
+			weight:200px;
+			height:240px;
+		}
+	</style>
+</head>
+<body>
+	<form id="bt" action="/action_page.php">
+	<fieldset>
+	<legend>Bài Tập</legend>
+		<label for="dl">Nhập dữ liệu:</label>
+		<input type="text" name="dl" id="fdl"/>
+		<p/>
+		<script language="javascript" type="text/javascript">
+		pic = new Array('<img src="https://bloglongzero.weebly.com/uploads/1/2/7/3/127397541/published/narutokd1.png?1585408121"/>','<img src="https://bloglongzero.weebly.com/uploads/1/2/7/3/127397541/published/bakugandofc1.jpg?1591928232"/>','<img src="https://bloglongzero.weebly.com/uploads/1/2/7/3/127397541/published/yugioh6.png?1583507123"/>','<img src="https://bloglongzero.weebly.com/uploads/1/2/7/3/127397541/tekken-6-usa-psp-coverart-orig_orig.jpg"/>','<img src="https://bloglongzero.weebly.com/uploads/1/2/7/3/127397541/published/190943-front.jpg?1571236845"/>');
+		n=Math.floor(Math.random() * 5);
+		document.write(pic[n]);
+		</script>
+	</form>
+		<div>
+		<input type="checkbox" id="gui" value="1"/> <label>Gửi</label> 
+        <script language="javascript">
+            document.getElementById('gui').onclick = function(e)
+			{
+                if (this.checked)
+				{
+                  document.getElementById("bt").submit();
+				}
+
+            }
+		</script>
+		<br/>
+		<input type="checkbox" id="kgui" value="2"/> <label>Không Gửi</label> 
+        <script language="javascript">
+            document.getElementById('kgui').onclick = function(e)
+			{
+                if (this.checked)
+				{
+                     location.reload();
+                }
+            }
+		</script>
+		</div>
+	</fieldset>
+</body>

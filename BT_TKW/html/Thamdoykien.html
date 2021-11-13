@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8"/>
+    <style>
+        h3 {
+            text-align: center;
+        }
+        form {
+            border: 10px double #000000;
+            width: 600px;
+            height: auto;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .can{
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+		<h3>PHIẾU THĂM DÒ Ý KIẾN</h3>
+        <label>Tên đăng nhập </label>
+		<input type="text">
+        <label>Giới tính</label>
+        <input type="radio" name="sex" value="Nam" checked="checked">Nam
+        <input type="radio" name="sex" value="Nữ">Nữ
+        <br/>
+        <label>Những mục thường quan tâm trên Internet</label><br/>
+        <div class="can">
+		<input type="checkbox" >Tin tức<br/>
+        <input type="checkbox" >Giải trí<br/>
+        <input type="checkbox" >Góc học tập<br/>
+        <input type="checkbox" >Các mục khác<br/>
+        <input type="submit" value="Đăng nhập">
+        <input type="reset" value="Phục hồi">
+		</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body {
+        background: rosybrown;
+    }
+h3{
+    text-align: center;
+}
+li {
+        font-variant: center;
+}
+hr {
+    width: 200px;
+    text-align: left;
+}

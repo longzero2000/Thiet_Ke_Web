@@ -1,0 +1,13 @@
+table {
+    background-image: url("../img/BT09.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border:1px dotted #000000;
+    text-align: justify;
+}
+#td {
+    color:blue;   
+}
+li {
+    padding-left: -10px;
+}

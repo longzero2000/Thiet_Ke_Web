@@ -1,0 +1,17 @@
+#dangnhap{
+	border: 3px solid black;
+	width: 500px;
+	height: 150px;
+	padding: 20px;
+	margin: 10px;
+	font-size: 20px;
+}
+#user{
+	margin-left: 39px;
+}
+#pass{
+	margin-left: 81px;
+}
+#pass2{
+	margin-left: 10px;
+}
